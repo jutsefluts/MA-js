@@ -1,0 +1,50 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light and Dark Mode Custom Variables */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom Utility */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Button Styling */
+.bottom-buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.button {
+  background-color: #10b981; /* Tailwind's green-500 */
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 32; /* Fixed width for buttons */
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 59.23 58.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #f71e63;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #059b95;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="38.05" y1="-220.12" x2="46.8" y2="-191.97" gradientTransform="translate(0 -190.07) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#059b95"/>
+      <stop offset="1" stop-color="#053462"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="26.35" y1="-194.61" x2="-5.8" y2="-243.34" gradientTransform="translate(0 -190.07) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8a009"/>
+      <stop offset="1" stop-color="#f71e63"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4">
+    <path id="Union" class="cls-2" d="M43.38,7.54c4.53,0,8.3,3.74,8.3,8.49s-3.77,8.49-8.3,8.49h-13.58v7.54h13.58c8.81,0,15.84-7.23,15.84-16.03S52.19,0,43.38,0h-13.58v7.54h13.58Z"/>
+    <path id="Union_2" class="cls-1" d="M7.92,16.03c0,4.74,3.77,8.49,8.3,8.49h13.58v7.54h-13.58c-.13,0-.25,0-.38,0h0c-4.53,0-8.3,3.75-8.3,8.49v17.92H0v-17.92c0-4.99,2.26-9.47,5.82-12.42C2.48,25.18.38,20.84.38,16.03.38,7.23,7.42,0,16.22,0h13.58v7.54h-13.58c-4.53,0-8.3,3.74-8.3,8.49Z"/>
+    <path id="Ellipse_17" class="cls-4" d="M37.35,15.66c0,1.77,1.44,3.21,3.21,3.21s3.21-1.44,3.21-3.21-1.44-3.21-3.21-3.21-3.21,1.44-3.21,3.21Z"/>
+    <path id="Ellipse_18" class="cls-3" d="M15.84,15.66c0,1.77,1.44,3.21,3.21,3.21s3.21-1.44,3.21-3.21-1.44-3.21-3.21-3.21-3.21,1.44-3.21,3.21Z"/>
+  </g>
+</svg>
